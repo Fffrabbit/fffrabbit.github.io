@@ -1,6 +1,6 @@
 # Petteri Kuisma
 
-Koulutusteknologian maisteriopiskelija
+Koulutusteknologian maisteri
 
 Olen kiinnostunut oppimisen teknologioista ja verkko-oppimisesta. Lisäksi minua kiinnostaa fyysisen oppimisympäristön eri "ainekset" etenkin häiriöitä aiheuttavat tekijät.
 

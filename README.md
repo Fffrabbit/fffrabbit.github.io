@@ -2,7 +2,7 @@
 
 ## Koulutusteknologian maisteri
 
-Tervetuloa tutustumaan minuun.
+Tervetuloa tutustumaan.
 
 Olen opiskellut koulutusteknologiaa Jyväskylän yliopåistossa ja olen kiinnostunut digipedagogiikasta, oppimisteknologioista, verkko-oppimisesta sekä opiskelun häiriöitä aiheuttavista tekijöistä. 
 Tälle sivustolle kokoan projektejani, osaamistani sekä opintojen aikana syntyneitä töitä ja ajatuksia.

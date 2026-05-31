@@ -50,7 +50,7 @@ Tutkielmassa tarkasteltiin tekoälyn mahdollisuuksia oppimisen tukena sekä siih
 
 ## Yhteystiedot
 
-- LinkedIn
-- GitHub
+- [LinkedIn](https://www.linkedin.com/in/petterikuisma/)
+- [GitHub](https://github.com/Fffrabbit)
 
 Sivusto täydentyy ja tarkentuu myöhemmin!

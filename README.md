@@ -1,6 +1,4 @@
-# fffrabbit.github.io
-
-Petteri Kuisma
+# Petteri Kuisma
 
 Koulutusteknologian maisteri
 

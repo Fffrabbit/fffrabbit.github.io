@@ -1,8 +1,17 @@
 # Petteri Kuisma
 
-Koulutusteknologian maisteri
+##Koulutusteknologian maisteri
 
-Olen kiinnostunut oppimisen teknologioista ja verkko-oppimisesta. Lisäksi minua kiinnostaa fyysisen oppimisympäristön eri "ainekset" etenkin häiriöitä aiheuttavat tekijät.
+Tervetuloa tutustumaan minuun.
+
+Olen opiskellut koulutusteknologiaa Jyväskylän yliopåistossa ja olen kiinnostunut digipedagogiikasta, oppimisteknologioista, verkko-oppimisesta sekä opiskelun häiriöitä aiheuttavista tekijöistä. 
+Tälle sivustolle kokoan projektejani, osaamistani sekä opintojen aikana syntyneitä töitä ja ajatuksia.
+
+## Minusta
+
+25-vuotias vastavalmistuva koulutusteknologian tietotekninen erityisasiantuntija. Olen tutustunut pro graduni kautta digitaalisiin häiriötekijöihin etenkin niihin, jotka syntyvät älypuhelimien kautta. 
+Mielenkiintoani ohjasi lukion aikaisen psykologian opintoni ja tutkimuskirjallisuutta lukiessani huomasin sieltä yhteneviä teemoja. Tai ei ne oikeastaan teemoja olleet vaan ilmiöitä, psykologisia ilmiöitä.
+Nämä ilmiöt ovat Brain drain, nomofobia sekä "Fear of Missing Out". Ne ovat puhelinsidonnaisia ilmiöitä ja halusin tutkia ovatko ne yhteydessä tietotekniikan korkeakouluopiskelijoiden kognitiiviseen kuormitukseen ja akateemiseen itsesätelyyn.
 
 ## Osaaminen
 
@@ -11,6 +20,7 @@ Olen kiinnostunut oppimisen teknologioista ja verkko-oppimisesta. Lisäksi minua
 - Moodle
 - Digipedagogiikka
 - Oppimismuotoilu ja oppimisanalytiikka
+- Oppimisympäristöjen kehittäminen
 
 ### Tekninen osaaminen
 
@@ -18,15 +28,21 @@ Olen kiinnostunut oppimisen teknologioista ja verkko-oppimisesta. Lisäksi minua
 - JavaScript
 - React
 
+### Tutkimusosaaminen
+
+- Määrällinen kyselytutkimus
+- Tilastollinen analyysi, Jamovi-ohjelmisto
+
 ## Projektit
 
 ### Verkkokoulutuksen uudistaminen
 
-Opiskelijaprojekti, jossa osallistuin Moodle-pohjaisen verkkokoulutuksen kehittämiseen ja oppimissisältöjen uudelleenrakentamiseen.
+Osallistuin Moodle-pohjaisen verkkokoulutuksen kehittämiseen opiskelijaprojektissa. Projektissa suunniteltiin ja rakennettiin oppimissisältöjä uudelleen käyttäjäystävällisemmiksi sekä pedagogisesti toimivammiksi alaikäisille että täysi-ikäisille käyttäjille.
 
 ### Kandidaatin tutkielma
 
 Tekstiä generoivan tekoälyn hyödyntäminen oppimisessa.
+Tutkielmassa tarkasteltiin tekoälyn mahdollisuuksia oppimisen tukena sekä siihen liittyviä hyötyjä ja haasteita.
 
 ### Pro gradu
 
@@ -36,3 +52,5 @@ Tekstiä generoivan tekoälyn hyödyntäminen oppimisessa.
 
 - LinkedIn
 - GitHub
+
+Sivusto täydentyy ja tarkentuu myöhemmin!

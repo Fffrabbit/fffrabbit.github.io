@@ -1,6 +1,6 @@
 # Petteri Kuisma
 
-##Koulutusteknologian maisteri
+## Koulutusteknologian maisteri
 
 Tervetuloa tutustumaan minuun.
 

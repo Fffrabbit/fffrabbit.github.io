@@ -1,0 +1,345 @@
+/* =============================================
+   Petteri Kuisma — Portfolio custom styles
+   Lisää tämä tiedosto: assets/css/custom.css
+   ============================================= */
+
+/* ---------- Google Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@600;700&display=swap');
+
+/* ---------- Muuttujat ---------- */
+:root {
+  --accent:       #185FA5;
+  --accent-light: #E6F1FB;
+  --accent-mid:   #378ADD;
+  --text-primary:   #1a1a1a;
+  --text-secondary: #555550;
+  --text-muted:     #888780;
+  --bg-page:    #f5f4f0;
+  --bg-surface: #ffffff;
+  --border:     rgba(0, 0, 0, 0.10);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 0 0 0.5px rgba(0,0,0,0.08);
+}
+
+/* ---------- Pohja ---------- */
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ---------- Wrapper ---------- */
+.wrapper {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+/* ---------- Header / hero ---------- */
+header.page-header {
+  background: var(--bg-surface);
+  border-bottom: 0.5px solid var(--border);
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Taustakuvio headeriin */
+header.page-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 80% at 50% -20%, rgba(55, 138, 221, 0.10) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.avatar-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--accent-light);
+  color: var(--accent);
+  font-family: 'Syne', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  border: 2px solid rgba(24, 95, 165, 0.18);
+  animation: fadeInDown 0.55s ease both;
+}
+
+header.page-header h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.25rem;
+  color: var(--text-primary);
+  animation: fadeInDown 0.55s 0.08s ease both;
+}
+
+.tagline {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid var(--accent-mid);
+  animation:
+    typewriter 1.6s steps(32) 0.5s both,
+    blink-cursor 0.75s step-end 2.1s 4,
+    cursor-hide 0s 5.1s forwards;
+}
+
+/* ---------- Navigaatio (header-linkit) ---------- */
+header.page-header nav {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.5s 0.35s ease both;
+}
+
+header.page-header nav a {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 6px 16px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  border: 0.5px solid rgba(24, 95, 165, 0.20);
+  transition: background 0.15s, transform 0.1s;
+}
+
+header.page-header nav a:hover {
+  background: #cde1f6;
+  transform: translateY(-1px);
+}
+
+/* ---------- Pääsisältö ---------- */
+section.main-content {
+  padding-top: 2.5rem;
+}
+
+/* ---------- Otsikot sisällössä ---------- */
+section.main-content h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 2.5rem 0 1rem;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+section.main-content h2::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 1.1em;
+  background: var(--accent-mid);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+section.main-content h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  color: var(--text-primary);
+}
+
+/* ---------- Scroll-reveal luokka (JS lisää) ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Osaaminen — korttiruudukko ---------- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card {
+  background: var(--bg-surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  font-size: 13px;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+.skill-card:hover {
+  border-color: rgba(55, 138, 221, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(24, 95, 165, 0.10);
+}
+
+.skill-card .skill-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+/* ---------- Projektikortit ---------- */
+.project-card {
+  background: var(--bg-surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+.project-card:hover {
+  border-color: rgba(55, 138, 221, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 95, 165, 0.09);
+}
+
+.project-card .badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 2px 10px;
+  border-radius: 100px;
+  margin-bottom: 8px;
+}
+
+/* ---------- Yhteystiedot-painikkeet ---------- */
+.contact-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--bg-surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 18px;
+  text-decoration: none;
+  box-shadow: var(--shadow-card);
+  transition: background 0.15s, transform 0.1s;
+}
+
+.contact-links a:hover {
+  background: var(--accent-light);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* ---------- Normaali markdown-teksti ---------- */
+section.main-content p {
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+section.main-content ul {
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+section.main-content ul li {
+  margin-bottom: 0.3rem;
+}
+
+section.main-content a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+section.main-content a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  padding: 2rem 1.5rem;
+  border-top: 0.5px solid var(--border);
+  margin-top: 2rem;
+}
+
+/* ---------- Animaatiot ---------- */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes blink-cursor {
+  50% { border-color: transparent; }
+}
+
+@keyframes cursor-hide {
+  to { border-color: transparent; }
+}
+
+/* ---------- Mobiili ---------- */
+@media (max-width: 600px) {
+  header.page-header h1 { font-size: 1.5rem; }
+  .skills-grid { grid-template-columns: 1fr 1fr; }
+  .wrapper { padding: 0 1rem 3rem; }
+}
+
+/* ---------- Liikeherkkyys ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .tagline { border-right: none; width: auto !important; }
+  .reveal  { opacity: 1; transform: none; transition: none; }
+}

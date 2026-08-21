@@ -9,7 +9,7 @@ Tälle sivustolle kokoan projektejani, osaamistani sekä opintojen aikana syntyn
 
 ## Minusta
 
-25-vuotias vastavalmistuva koulutusteknologian tietotekninen erityisasiantuntija. Olen tutustunut pro graduni kautta digitaalisiin häiriötekijöihin etenkin niihin, jotka syntyvät älypuhelimien kautta. 
+25-vuotias valmistunut koulutusteknologian tietotekninen erityisasiantuntija. Olen tutustunut pro graduni kautta digitaalisiin häiriötekijöihin etenkin niihin, jotka syntyvät älypuhelimien kautta. 
 Mielenkiintoani ohjasi lukion aikaisen psykologian opintoni ja tutkimuskirjallisuutta lukiessani huomasin sieltä yhteneviä teemoja. Tai ei ne oikeastaan teemoja olleet vaan ilmiöitä, psykologisia ilmiöitä.
 Nämä ilmiöt ovat Brain drain, nomofobia sekä "Fear of Missing Out". Ne ovat puhelinsidonnaisia ilmiöitä ja halusin tutkia ovatko ne yhteydessä tietotekniikan korkeakouluopiskelijoiden kognitiiviseen kuormitukseen ja akateemiseen itsesätelyyn.
 

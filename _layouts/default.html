@@ -91,30 +91,39 @@
         
         <!-- Kommenttiosio vain IT-oppaan sivuilla -->
         {% if page.url contains '/it-opas/' %}
-        <hr style="margin: 3rem 0 2rem 0; border: 0; border-top: 1px solid #333;" />
-        <h3 style="margin-bottom: 1.5rem;">Jätä kommentti tai ehdota parannusta</h3>
+        <hr style="margin: 2.5rem 0 1.5rem 0; border: 0; border-top: 1px solid #ddd;" />
+        <h3 style="margin-bottom: 1rem; color: #111;">Jätä kommentti tai ehdota parannusta</h3>
 
-        <!-- Tyylikorjaus Cusdis-upotukselle ja vierityspalkin poisto -->
+        <!-- Cusdis-laatikon tyylitys: selkeät reunat ja oikea korkeus -->
         <style>
+          .cusdis-container {
+            background: #ffffff;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+          }
           #cusdis_thread iframe {
-            min-height: 480px !important;
+            min-height: 260px !important;
             height: auto !important;
             width: 100% !important;
             border: none !important;
-            overflow: visible !important;
+            display: block;
           }
         </style>
 
-        <div id="cusdis_thread"
-          data-host="https://cusdis.com"
-          data-app-id="2fdfd82a-aca1-48ff-9541-2921493c605a"
-          data-page-id="{{ page.url }}"
-          data-page-url="{{ page.url | absolute_url }}"
-          data-page-title="{{ page.title | default: site.title }}"
-          data-theme="auto"
-        ></div>
+        <div class="cusdis-container">
+          <div id="cusdis_thread"
+            data-host="https://cusdis.com"
+            data-app-id="2fdfd82a-aca1-48ff-9541-2921493c605a"
+            data-page-id="{{ page.url }}"
+            data-page-url="{{ page.url | absolute_url }}"
+            data-page-title="{{ page.title | default: site.title }}"
+            data-theme="light"
+          ></div>
+        </div>
 
-        <!-- Suomenkieliset tekstit kentille -->
         <script>
           window.CUSDIS_LOCALE = {
             "powered_by": "Kommenttijärjestelmä: Cusdis",
@@ -128,7 +137,7 @@
             "mod_badge": "Ylläpitäjä",
             "content_is_required": "Kommenttikenttä ei voi olla tyhjä",
             "nickname_is_required": "Nimimerkki vaaditaan",
-            "comment_has_been_sent": "Kiitos! Kommenttisi on lähetetty ja tulee näkyviin hyväksynnän jälkeen."
+            "comment_has_been_sent": "Kiitos! Kommenttisi on vastaanotettu ja julkaistaan hyväksynnän jälkeen."
           };
         </script>
         <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>

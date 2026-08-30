@@ -87,17 +87,50 @@
             </div>
           </div>
         -->
+        
+        
+        <!-- Kommenttiosio vain IT-oppaan sivuilla -->
         {% if page.url contains '/it-opas/' %}
-        <hr style="margin: 3rem 0 2rem 0; border: 0; border-top: 1px solid var(--border-color, #333);" />
+        <hr style="margin: 3rem 0 2rem 0; border: 0; border-top: 1px solid #333;" />
         <h3 style="margin-bottom: 1.5rem;">Jätä kommentti tai ehdota parannusta</h3>
-        <div id="cusdis_thread"
+
+        <!-- Tyylikorjaus Cusdis-upotukselle ja vierityspalkin poisto -->
+        <style>
+          #cusdis_thread iframe {
+            min-height: 480px !important;
+            height: auto !important;
+            width: 100% !important;
+            border: none !important;
+            overflow: visible !important;
+          }
+        </style>
+
         <div id="cusdis_thread"
           data-host="https://cusdis.com"
           data-app-id="2fdfd82a-aca1-48ff-9541-2921493c605a"
-          data-page-id="{{ PAGE_ID }}"
-          data-page-url="{{ PAGE_URL }}"
-          data-page-title="{{ PAGE_TITLE }}"
+          data-page-id="{{ page.url }}"
+          data-page-url="{{ page.url | absolute_url }}"
+          data-page-title="{{ page.title | default: site.title }}"
+          data-theme="auto"
         ></div>
+
+        <!-- Suomenkieliset tekstit kentille -->
+        <script>
+          window.CUSDIS_LOCALE = {
+            "powered_by": "Kommenttijärjestelmä: Cusdis",
+            "post_comment": "Lähetä kommentti",
+            "loading": "Ladataan...",
+            "email": "Sähköposti (vapaaehtoinen)",
+            "nickname": "Nimimerkki tai Nimi",
+            "reply_placeholder": "Kirjoita kommenttisi tai kehitysehdotuksesi tähän...",
+            "reply_btn": "Vastaa",
+            "sending": "Lähetetään...",
+            "mod_badge": "Ylläpitäjä",
+            "content_is_required": "Kommenttikenttä ei voi olla tyhjä",
+            "nickname_is_required": "Nimimerkki vaaditaan",
+            "comment_has_been_sent": "Kiitos! Kommenttisi on lähetetty ja tulee näkyviin hyväksynnän jälkeen."
+          };
+        </script>
         <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
         {% endif %}
 

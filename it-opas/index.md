@@ -5,7 +5,7 @@ title: IT-opas opettajille
 
 # IT-osaamisen opas opettajille (OPS L5)
 
-Tämä sivusto kokoaa yhteen opettajan tarvitsemat IT- ja TVT-taidot, keskeiset käsitteet sekä valmiita ideoita niiden soveltamiseen opetuksessa.
+Tämä sivusto kokoaa yhteen opettajan tarvitsemat tieto- ja viestintäteknologia osaamisen keskeiset käsitteet sekä valmiita ideoita niiden soveltamiseen opetuksessa. Sivuston ideana on tukea opettajia ja antaa ehdotuksia, kuinka he voivat hyödyntää erilaisia teknologioita osana opetusta. He voivat hyödyntää täältä vapaasti löytyviä materiaaleja osaksi opetustaan. 
 
 ---
 

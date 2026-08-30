@@ -87,6 +87,19 @@
             </div>
           </div>
         -->
+        {% if page.url contains '/it-opas/' %}
+        <hr style="margin: 3rem 0 2rem 0; border: 0; border-top: 1px solid var(--border-color, #333);" />
+        <h3 style="margin-bottom: 1.5rem;">Jätä kommentti tai ehdota parannusta</h3>
+        <div id="cusdis_thread"
+        <div id="cusdis_thread"
+          data-host="https://cusdis.com"
+          data-app-id="2fdfd82a-aca1-48ff-9541-2921493c605a"
+          data-page-id="{{ PAGE_ID }}"
+          data-page-url="{{ PAGE_URL }}"
+          data-page-title="{{ PAGE_TITLE }}"
+        ></div>
+        <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+        {% endif %}
 
       </section>
     </div>

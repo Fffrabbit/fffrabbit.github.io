@@ -3,7 +3,9 @@ layout: default
 title: CV
 ---
 
-[Lataa CV PDF-muodossa](/assets/cv/Ansioluettelo-kuisma-petteri.pdf)
+<a href="/assets/cv/Ansioluettelo-kuisma-petteri.pdf" data-goatcounter-click="lataa-cv-pdf">
+  Lataa CV PDF-muodossa
+</a>
 
 # Petteri Kuisma
 

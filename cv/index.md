@@ -11,7 +11,7 @@ title: CV
 
 ## Koulutusteknologian asiantuntija (FM)
 
-Petteri.kuisma00@gmail.com | +358 45 107 8022 | [LinkedIn](https://www.linkedin.com/in/petterikuisma/) | [GitHub](https://github.com/Fffrabbit)
+Petteri.kuisma00@gmail.com | +358 45 107 8022 
 
 ## Profiili
 

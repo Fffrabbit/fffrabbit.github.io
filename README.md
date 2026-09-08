@@ -52,4 +52,4 @@ Projekteistani voit lukea lisää [tästä →]({{ site.baseurl }}/projektit/)
 - [LinkedIn](https://www.linkedin.com/in/petterikuisma/)
 - [GitHub](https://github.com/Fffrabbit)
 
-Sivusto täydentyy ja tarkentuu myöhemmin!
+Sivusto täydentyy ja tarkentuu lisää!

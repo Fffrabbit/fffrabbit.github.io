@@ -57,4 +57,4 @@ Projekteistani voit lukea lisää [tästä →]({{ site.baseurl }}/projektit/)
 Täytän nuorten työllistymissetelin ehdot. Työnantaja voi saada TE-palveluilta jopa 1500 €/kk tukea palkkaukseeni 3–6 kuukauden ajan. Voit lukea TyöHämeen sivuilta lisää [tästä!]({{ https://www.tyohame.fi/tyonantajalle/tyonantajien-tuet/nuorten-tyollistymisseteli/ }}) 
 Huom! Saatavuus riippuu eri aluiesta ja tietoa saa lisää oman alueen TE-toimistolta. 
 
-Sivusto täydentyy ja tarkentuu lisää!
+Sivusto täydentyy ja tarkentuu!

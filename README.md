@@ -35,18 +35,8 @@ Nämä ilmiöt ovat Brain drain, nomofobia sekä "Fear of Missing Out". Ne ovat 
 
 ## Projektit
 
-### Verkkokoulutuksen uudistaminen
+Projekteistani voit lukea lisää [tästä →]({{ site.baseurl }}/projektit/)
 
-Osallistuin Moodle-pohjaisen verkkokoulutuksen kehittämiseen opiskelijaprojektissa. Projektissa suunniteltiin ja rakennettiin oppimissisältöjä uudelleen käyttäjäystävällisemmiksi sekä pedagogisesti toimivammiksi alaikäisille että täysi-ikäisille käyttäjille.
-
-### Kandidaatin tutkielma
-
-Tekstiä generoivan tekoälyn hyödyntäminen oppimisessa.
-Tutkielmassa tarkasteltiin tekoälyn mahdollisuuksia oppimisen tukena sekä siihen liittyviä hyötyjä ja haasteita.
-
-### Pro gradu
-
-Älypuhelimien tuottamien psykologisten ilmiöiden yhteys kognitiivisiin toimintoihin ja itsesäätelyyn tietotekniikan korkeakouluopiskelijoilla.
 
 ## Yhteystiedot
 

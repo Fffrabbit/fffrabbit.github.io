@@ -17,6 +17,6 @@ Ensimmäinen klusterointi sisälsi kieleen sidottuja valintoja ja nämä poissul
 
 5 profiilia, PCA-kuvat ja 41% varianssi. 
 
- ![Ainevalintaprofiilit PCA-projektiona]({{ https://fffrabbit.github.io }}/assets/img/yo-analyysi/pca_klusterit.png)
+ ![Ainevalintaprofiilit PCA-projektiona]({{ site.baseurl }}/assets/img/yo-analyysi/pca_klusterit.png)
 
-![Ainevalintaprofiilit PCA-projektiona]({{ https://fffrabbit.github.io }}/assets/img/yo-analyysi/pca_klusterit-2.png)
+![Ainevalintaprofiilit PCA-projektiona]({{ site.baseurl }}/assets/img/yo-analyysi/pca_klusterit-2.png)

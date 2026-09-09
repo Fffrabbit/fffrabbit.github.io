@@ -17,6 +17,13 @@ Petteri.kuisma00@gmail.com | +358 45 107 8022
 
 Valmistunut koulutusteknologian asiantuntija (FM), jolla on käytännön kokemusta digipedagogisten verkkokoulutusten kehittämisestä Moodle-ympäristössä, digitaalisten oppimissisältöjen tuottamisesta sekä käyttäjälähtöisestä verkkopalvelujen kehittämisestä. Osaamiseni painottuu oppimisympäristöihin, pedagogiseen suunnitteluun, saavutettavuuteen, käytettävyyteen ja tekoälyn hyödyntämiseen opetuksessa. Etsin asiantuntijatehtäviä koulutusteknologian, digipedagogiikan tai digitaalisen sisällön kehittämisen parista.
 
+## Työskentelyalue
+
+Olen valmis työskentelemään pääkaupunkiseudulla sekä Pirkanmaan, Kanta-Hämeen ja Päijät-Hämeen alueilla.
+
+![Työskentelyalue kartalla]({{ site.baseurl }}/assets/img/tyoskentelyalue-kartta.png)
+
+
 ## Työkokemus
 
 ### Kevytyrittäjä, Hämeen Sähköasennus Oy — 4/2026–8/2026

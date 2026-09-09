@@ -1,3 +1,16 @@
 theme: jekyll-theme-modernist
 title: Petteri Kuisma kotisivu
 description: Portfolio, projektit ja osaaminen koulutusteknologian alalta
+
+url: "https://fffrabbit.github.io"
+lang: fi
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+social:
+  name: Petteri Kuisma
+  links:
+    - https://www.linkedin.com/in/petterikuisma/
+    - https://github.com/Fffrabbit

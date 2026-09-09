@@ -21,7 +21,7 @@ Valmistunut koulutusteknologian asiantuntija (FM), jolla on käytännön kokemus
 
 Olen valmis työskentelemään pääkaupunkiseudulla sekä Pirkanmaan, Kanta-Hämeen ja Päijät-Hämeen alueilla.
 
-![Työskentelyalue kartalla]({{ site.baseurl }}/assets/img/tyoskentelyalue-kartta.png)
+![Työskentelyalue kartalla]({{ site.baseurl }}/assets/img/tyoskentelyalue-kartta-pienempi.png)
 
 
 ## Työkokemus

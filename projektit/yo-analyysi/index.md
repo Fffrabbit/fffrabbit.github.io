@@ -28,3 +28,15 @@ Profiilit visualisoitiin PCA-projektiolla kahteen ulottuvuuteen (yhteensä 41 % 
 ![Ainevalintaprofiilit PCA-projektiona]({{ site.baseurl }}/assets/img/yo-tulkinta/pca_klusterit-2.png)
 
 Kuvasta erottuvat selkeimmin pitkän matematiikan klusterit omiksi tiiviiksi ryhmikseen, kun taas lyhyen matematiikan klusterit menevät osittain päällekkäin – tämä on odotettua, koska ne erottuvat toisistaan asteittaisen reaaliainepainotuksen eikä yhden selkeän muuttujan perusteella.
+
+## Monivuotinen trendi (2020–2026)
+
+Yllä oleva analyysi kattaa vain kevään 2025 tulokset. Jotta nähdään, ovatko ainevalintaprofiilit muuttuneet ajan myötä, sama menetelmä toistettiin yhdistämällä vuosien 2020–2026 kevään tulokset yhdeksi aineistoksi ja ajamalla klusterointi kerran koko datalle. Tärkeänä erona, jos klusterointi ajettaisiin erikseen joka vuodelle, klusterien numerointi ja sisältö eivät olisi vertailukelpoisia vuosien välillä.
+
+![Ainevalintaprofiilien osuudet 2020–2026]({{ site.baseurl }}/assets/img/yo-tulkinta/trendi_2020_2026.png)
+
+Selkeimpiä havaintoja on luonnontiede/lääke -profiilin ja laaja-alaisen pitkän matematiikan laskusuunta. Kun yhteiskuntaoppi ja terveys/psykologia painoisilla nähdään noususuuntaa. 
+
+Luonnontiede/lääke-profiilin (pitkä matematiikka, kemia, fysiikka, biologia) osuus on laskenut tasaisesti 22 %:sta 17 %:iin vuosina 2020–2026, samalla kun yhteiskuntaoppipainotteisen profiilin (lyhyt matematiikka, yhteiskuntaoppi) osuus on noussut 17 %:sta 23 %:iin.
+
+On syytä huomauttaa, että tämä on kuvaileva havainto, ei selitys. Data ei kerro, johtuuko muutos esimerkiksi lukiovalinnoista, opetussuunnitelman uudistuksesta vai jostain muusta.

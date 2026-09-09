@@ -1,6 +1,7 @@
 ---
 layout: default
-title: YO-tulkinta
+title: Ylioppilastutkinnon tulosanalyysi – Petteri Kuisma
+description: KMeans-klusterointianalyysi kevään 2025 ylioppilastutkinnon tuloksista. 25 901 kokelaan aineistosta viisi opiskelijaprofiilia, visualisoitu PCA:lla.
 ---
 
 # YO-tulkinta (2025K)

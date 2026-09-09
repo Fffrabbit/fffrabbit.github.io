@@ -1,6 +1,7 @@
 ---
 layout: default
-title: CV
+title: CV – Petteri Kuisma, koulutusteknologian asiantuntija
+description: Petteri Kuisman ansioluettelo. Koulutusteknologian maisteri (FM), tausta digipedagogiikassa, Moodle-ympäristöissä ja HTML/CSS-kehityksessä.
 ---
 
 <a href="/assets/cv/Ansioluettelo-kuisma-petteri.pdf" data-goatcounter-click="lataa-cv-pdf">

@@ -42,37 +42,35 @@
 
         <!-- Nopeat linkit ja navigaatio -->
         <nav aria-label="Sivustonavigaatio ja profiilit">
-          <a href="{{ '/' | relative_url }}">
-            <i class="ti ti-home" aria-hidden="true"></i> Etusivu
-          </a>
-          <a href="{{ '/cv/' | relative_url }}">
-            <i class="ti ti-book" aria-hidden="true"></i> Ansioluettelo
-          </a>
-           <a href="{{ '/projektit/' | relative_url }}">
-            <i class="ti ti-book" aria-hidden="true"></i> Projektit
-          </a>
-          <!--
-          <a href="{{ '/it-opas/' | relative_url }}">
-            <i class="ti ti-book" aria-hidden="true"></i> IT-opas
-          </a>
-          -->
-          <a href="https://www.linkedin.com/in/petterikuisma/"
-             target="_blank" rel="noopener noreferrer">
-            <i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn
-          </a>
-          <a href="https://github.com/Fffrabbit"
-             target="_blank" rel="noopener noreferrer">
-            <i class="ti ti-brand-github" aria-hidden="true"></i> GitHub
-          </a>
-          {% if page.alt_lang_url %}
-            <a href="{{ page.alt_lang_url | relative_url }}">
-              <i class="ti ti-language" aria-hidden="true"></i>
-              {% if page.lang == "en" %}Suomeksi{% else %}In English{% endif %}
-            </a>
-          {% endif %}
-          
-        </nav>
-
+  <a href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">
+    <i class="ti ti-home" aria-hidden="true"></i> {% if page.lang == "en" %}Home{% else %}Etusivu{% endif %}
+  </a>
+  <a href="{% if page.lang == 'en' %}{{ '/en/cv/' | relative_url }}{% else %}{{ '/cv/' | relative_url }}{% endif %}">
+    <i class="ti ti-book" aria-hidden="true"></i> {% if page.lang == "en" %}CV{% else %}Ansioluettelo{% endif %}
+  </a>
+   <a href="{{ '/projektit/' | relative_url }}">
+    <i class="ti ti-book" aria-hidden="true"></i> {% if page.lang == "en" %}Projects{% else %}Projektit{% endif %}
+  </a>
+  <!--
+  <a href="{{ '/it-opas/' | relative_url }}">
+    <i class="ti ti-book" aria-hidden="true"></i> IT-opas
+  </a>
+  -->
+  <a href="https://www.linkedin.com/in/petterikuisma/"
+     target="_blank" rel="noopener noreferrer">
+    <i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn
+  </a>
+  <a href="https://github.com/Fffrabbit"
+     target="_blank" rel="noopener noreferrer">
+    <i class="ti ti-brand-github" aria-hidden="true"></i> GitHub
+  </a>
+  {% if page.alt_lang_url %}
+  <a href="{{ page.alt_lang_url | relative_url }}">
+    <i class="ti ti-language" aria-hidden="true"></i>
+    {% if page.lang == "en" %}Suomeksi{% else %}In English{% endif %}
+  </a>
+  {% endif %}
+</nav>
       </div>
     </header>
 

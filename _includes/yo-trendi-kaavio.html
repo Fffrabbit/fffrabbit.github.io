@@ -1,0 +1,70 @@
+<div id="yo-trendi-kaavio" style="width:100%; max-width:900px; margin:0 auto;"></div>
+<p style="font-size:0.85rem; color:#9aa1ad; max-width:900px; margin:0.5rem auto 0; text-align:center;">
+  Klikkaa selitteen nimeä piilottaaksesi/näyttääksesi profiilin. Vie hiiri viivan päälle nähdäksesi tarkan osuuden ja kokelasmäärän.
+</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.32.0/plotly.min.js"></script>
+<script>
+(function () {
+  var data = {
+    "vuodet": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+    "sarjat": [
+      {"nimi": "Pitkä matikka, laaja-alainen", "osuudet": [18.87, 18.93, 19.09, 17.66, 16.69, 16.9, 16.92]},
+      {"nimi": "Yhteiskuntaoppipainotteinen", "osuudet": [16.3, 16.31, 16.66, 17.08, 17.2, 17.7, 18.91]},
+      {"nimi": "Luonnontiede/lääke", "osuudet": [23.4, 25.1, 24.73, 25.13, 26.02, 24.6, 22.01]},
+      {"nimi": "Terveys/psykologia", "osuudet": [19.48, 18.21, 18.12, 19.83, 21.38, 22.76, 24.75]},
+      {"nimi": "Yleisreaali/historia", "osuudet": [21.94, 21.45, 21.39, 20.3, 18.7, 18.05, 17.4]}
+    ],
+    "kokelasmaarat": {"2020": 25076, "2021": 24879, "2022": 24911, "2023": 25303, "2024": 25027, "2025": 25901, "2026": 26647}
+  };
+
+  var varit = ["#6ea8fe", "#f2a154", "#5fd0a0", "#e879a6", "#c49bfa"];
+
+  var traces = data.sarjat.map(function (sarja, i) {
+    var maarat = data.vuodet.map(function (v) { return data.kokelasmaarat[v]; });
+    return {
+      x: data.vuodet,
+      y: sarja.osuudet,
+      customdata: maarat,
+      name: sarja.nimi,
+      mode: "lines+markers",
+      line: { color: varit[i % varit.length], width: 2.5, shape: "spline" },
+      marker: { size: 6 },
+      hovertemplate: "<b>%{fullData.name}</b><br>%{x}: %{y:.1f} %<br>Kokelaita yhteensä: %{customdata}<extra></extra>"
+    };
+  });
+
+  var layout = {
+    paper_bgcolor: "#14161b",
+    plot_bgcolor: "#14161b",
+    font: { color: "#e7e9ee", family: "inherit", size: 13 },
+    margin: { t: 20, r: 20, l: 50, b: 40 },
+    xaxis: {
+      dtick: 1,
+      gridcolor: "#2a2e38",
+      zerolinecolor: "#2a2e38",
+      title: { text: "Tutkintovuosi (kevät)", font: { size: 12, color: "#9aa1ad" } }
+    },
+    yaxis: {
+      ticksuffix: " %",
+      gridcolor: "#2a2e38",
+      zerolinecolor: "#2a2e38",
+      title: { text: "Osuus kokelaista", font: { size: 12, color: "#9aa1ad" } }
+    },
+    legend: {
+      orientation: "h",
+      y: -0.25,
+      font: { size: 11.5, color: "#e7e9ee" }
+    },
+    hoverlabel: {
+      bgcolor: "#1c1f26",
+      bordercolor: "#2a2e38",
+      font: { color: "#e7e9ee" }
+    }
+  };
+
+  var config = { responsive: true, displayModeBar: false };
+
+  Plotly.newPlot("yo-trendi-kaavio", traces, layout, config);
+})();
+</script>

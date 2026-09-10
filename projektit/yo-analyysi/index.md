@@ -26,7 +26,9 @@ Analyysi tuotti viisi profiilia. Suurin jakolinja on pitkän ja lyhyen matematii
 
 Profiilit visualisoitiin PCA-projektiolla kahteen ulottuvuuteen (yhteensä 41 % selitetystä varianssista):
 
-![Ainevalintaprofiilit PCA-projektiona]({{ site.baseurl }}/assets/img/yo-tulkinta/pca_klusterit-2.png)
+[comment]: <>  ![Ainevalintaprofiilit PCA-projektiona]({{ site.baseurl }}/assets/img/yo-tulkinta/pca_klusterit-2.png)
+
+   {% include yo-trendi-kaavio.html %}
 
 Kuvasta erottuvat selkeimmin pitkän matematiikan klusterit omiksi tiiviiksi ryhmikseen, kun taas lyhyen matematiikan klusterit menevät osittain päällekkäin – tämä on odotettua, koska ne erottuvat toisistaan asteittaisen reaaliainepainotuksen eikä yhden selkeän muuttujan perusteella.
 

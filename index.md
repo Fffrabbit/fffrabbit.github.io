@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Petteri Kuisma – koulutusteknologia ja ohjelmistokehitys
-description: Petteri Kuisman portfolio, koulutusteknologian maisterin (FM) osaaminen, projektit ja tausta digipedagogiikasta ohjelmistokehitykseen.
+title: Petteri Kuisma – koulutusteknologia
+description: Petteri Kuisman portfolio, koulutusteknologian maisterin (FM) osaaminen, projektit ja tausta digipedagogiikasta.
 lang: fi
 alt_lang_url: /en/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Petteri Kuisma – koulutusteknologia
+title: Petteri Kuisma – koulutusteknologian asiantuntija
 description: Petteri Kuisman portfolio, koulutusteknologian maisterin (FM) osaaminen, projektit ja tausta digipedagogiikasta.
 lang: fi
 alt_lang_url: /en/

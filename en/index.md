@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Petteri Kuisma – Educational Technology and Software Development
-description: Petteri Kuisma's portfolio, M.Sc. in Educational Technology, projects and background spanning digital pedagogy to software development.
+title: Petteri Kuisma – Educational Technology specialist
+description: Petteri Kuisma's portfolio, M.Sc. in Educational Technology, projects and background spanning digital pedagogy.
 lang: en
 alt_lang_url: /
 ---

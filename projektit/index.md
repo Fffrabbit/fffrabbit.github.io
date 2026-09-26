@@ -16,6 +16,10 @@ Ylioppilastutkinnon tulosdatan analyysi oppimisanalytiikan näkökulmasta – ai
 
 [Lue lisää →]({{ site.baseurl }}/projektit/yo-analyysi/)
 
+## Tekoäly korkeakouluissa
+
+[Lue lisää →]({{ site.baseurl }}/projektit/tekoly-korkeakouluissa/)
+
 ## Kandidaatin tutkielma
 
 Tähän myöhemmin tarkempi kuvaus.

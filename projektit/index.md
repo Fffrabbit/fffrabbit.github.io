@@ -12,7 +12,7 @@ alt_lang_url: /en/projects/
 
 Suomen Partiolaisten Turvallisesti yhdessä -verkkokoulutuksen sisällöllinen, pedagoginen ja tekninen uudistus Moodlessa. Vastasin teknisestä toteutuksesta ja kahden Moodle-version yhteensopivuuden selvityksestä.
 
-[Lue lisää →]({{ site.baseurl }}/projektit/partiomood/)
+[Lue lisää →]({{ site.baseurl }}/projektit/PartioMood/)
 
 ## YO-tulkinta
 

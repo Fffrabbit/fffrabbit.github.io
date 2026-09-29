@@ -66,7 +66,7 @@ The use of text-generating artificial intelligence in learning. The thesis exami
 
 The connection between psychological phenomena caused by smartphones and cognitive functions and self-regulation among IT students in higher education.
 
-You can read more about my projects [here →]({{ site.baseurl }}/projektit/)
+You can read more about my projects [here →]({{ site.baseurl }}/en/projektit/)
 
 
 ## Contact

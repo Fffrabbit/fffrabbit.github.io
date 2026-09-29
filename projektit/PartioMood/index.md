@@ -31,7 +31,7 @@ Projektille asetettiin kuusi tavoitetta, jotka kaikki joko täyttyivät tai täy
 
 Heikoin yksittäinen kohta pilotin palautteessa oli koulutuksessa navigointi (55 % samaa mieltä siitä, että eteneminen oli selkeää), ja tähän tehtiin korjauksia ennen julkaisua.
 
-Kieliversioiden osalta projekti jäi kesken oman aikataulunsa puitteissa, mutta työ jatkui: Suomen Partiolaisten oman julkaisun mukaan uudistettu koulutus julkaistiin syksyllä 2025 suomeksi ja ruotsiksi, ja englanninkielinen versio on tulossa keväällä 2026.
+Kieliversioiden osalta projekti jäi kesken oman aikataulunsa puitteissa, mutta työ jatkui: Suomen Partiolaisten oman julkaisun mukaan uudistettu koulutus julkaistiin syksyllä 2025 suomeksi ja ruotsiksi, ja englanninkielinen versio on julkaistu keväällä 2026.
 
 ## Saavutettavuus ja tekoäly
 

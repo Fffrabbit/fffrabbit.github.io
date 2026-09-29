@@ -25,10 +25,10 @@ Vertailu tekoälyn käyttöohjeista niissä korkeakouluissa, joissa olisin valmi
 
 [Lue lisää →]({{ site.baseurl }}/projektit/tekoaly-korkeakouluissa/)
 
-## Kandidaatin tutkielma
+## Pro gradu
 
 Tähän myöhemmin tarkempi kuvaus.
 
-## Pro gradu
+## Kandidaatin tutkielma
 
 Tähän myöhemmin tarkempi kuvaus.

@@ -8,9 +8,11 @@ alt_lang_url: /projektit/
 
 # Projects
 
-## Reforming Online Education
+## PartioMood – Redesigning an Online Safety Course
 
-More detailed description to follow.
+Content, pedagogical and technical redesign of Suomen Partiolaiset's Turvallisesti yhdessä online course in Moodle. I led the technical implementation and a two-version Moodle compatibility review.
+
+[Read more →]({{ site.baseurl }}/en/projects/PartioMood/)
 
 ## YO-tulkinta
 

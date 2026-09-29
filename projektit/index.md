@@ -19,6 +19,7 @@ Ylioppilastutkinnon tulosdatan analyysi oppimisanalytiikan näkökulmasta – ai
 [Lue lisää →]({{ site.baseurl }}/projektit/yo-analyysi/)
 
 ## Tekoäly korkeakouluissa
+Vertailu tekoälyn käyttöohjeista niissä korkeakouluissa, joissa olisin valmis työskentelemään, sekä käytännön ohjeita opiskelijoille. 
 
 [Lue lisää →]({{ site.baseurl }}/projektit/tekoaly-korkeakouluissa/)
 

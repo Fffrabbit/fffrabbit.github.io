@@ -3,7 +3,7 @@ layout: default
 title: PartioMood – Redesigning an Online Safety Course – Petteri Kuisma
 description: Content, pedagogical and technical redesign of Suomen Partiolaiset's Turvallisesti yhdessä online course in Moodle. Petteri led the technical implementation and a two-version Moodle compatibility review.
 lang: en
-alt_lang_url: /projektit/partiomood/
+alt_lang_url: /projektit/PartioMood/
 ---
 
 # PartioMood – Redesigning an Online Safety Course

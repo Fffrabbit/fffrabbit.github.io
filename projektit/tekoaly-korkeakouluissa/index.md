@@ -2,6 +2,8 @@
 layout: default
 title: Tekoälyohjeistukset korkeakouluissa – Petteri Kuisma
 description: Vertailu tekoälyn käyttöä koskevista ohjeistuksista pääkaupunkiseudun, Pirkanmaan, Kanta-Hämeen, Päijät-Hämeen ja Keski-Suomen korkeakouluissa, sekä käytännön ohjeita opiskelijalle.
+lang: fi
+alt_lang_url: /en/projects/AI-policies-in-finnish-higher-education/
 ---
 
 # Tekoäly korkeakouluissa – vertailu ja käytännön ohjeita

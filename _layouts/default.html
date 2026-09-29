@@ -48,7 +48,7 @@
   <a href="{% if page.lang == 'en' %}{{ '/en/cv/' | relative_url }}{% else %}{{ '/cv/' | relative_url }}{% endif %}">
     <i class="ti ti-book" aria-hidden="true"></i> {% if page.lang == "en" %}CV{% else %}Ansioluettelo{% endif %}
   </a>
-   <a href="{{ '/projektit/' | relative_url }}">
+   <a href="{% if page.lang == 'en' %}{{ '/en/projects/' | relative_url }}{% else %}{{ '/projektit/' | relative_url }}{% endif %}">
     <i class="ti ti-book" aria-hidden="true"></i> {% if page.lang == "en" %}Projects{% else %}Projektit{% endif %}
   </a>
   <!--

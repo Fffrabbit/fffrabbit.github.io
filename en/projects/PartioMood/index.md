@@ -31,7 +31,7 @@ The project had six goals, all either fully or partially achieved:
 
 The weakest single point in the pilot feedback was in-course navigation (55% agreement that progressing through the course was clear), which was addressed before launch.
 
-The language versions were left unfinished within the project's own timeline, but the work continued afterwards: according to Suomen Partiolaiset's own article, the redesigned course launched in autumn 2025 in Finnish and Swedish, with an English version to follow in spring 2026.
+The language versions were left unfinished within the project's own timeline, but the work continued afterwards: according to Suomen Partiolaiset's own article, the redesigned course launched in autumn 2025 in Finnish and Swedish, with an English version in spring 2026.
 
 ## Accessibility and AI
 

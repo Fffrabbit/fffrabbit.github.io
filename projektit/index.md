@@ -2,6 +2,8 @@
 layout: default
 title: Projektit – Petteri Kuisma
 description: Petteri Kuisman projektit koulutusteknologian ja datan alalta, mukaan lukien ylioppilastutkinnon tulosdatan analyysi ja verkko-oppimisympäristöjen kehittäminen.
+lang: fi
+alt_lang_url: /en/
 ---
 
 # Projektit

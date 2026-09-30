@@ -14,6 +14,10 @@ alt_lang_url: /projektit/Pro-gradu/
 
 My master's thesis examines whether smartphone-related psychological phenomena — brain drain, nomophobia, fear of missing out (FoMO), and problematic phone use — are linked to IT students' cognitive load, academic self-regulation, and attention disruption. The thesis was completed in May 2026 at the University of Jyväskylä's Faculty of Information Technology, in the educational technology programme, supervised by Ville Isomöttönen.
 
+## Theoretical background and instruments
+
+Core frameworks: Brain Drain theory (Ward et al. 2017), Cognitive Load Theory (Sweller 1994), FoMO (Przybylski et al. 2013), and Nomophobia (Yildirim & Correia 2015). Instruments used: NMP-Q, FoMOS, SAS-SV, MSLQ, and NASA-TLX.
+
 ## Method
 
 The study was a quantitative cross-sectional survey. Data was collected via an electronic questionnaire in spring 2026, with 79 IT higher-education students responding — the sample grew from roughly 48 to a final 79 during data collection. The phenomena were measured with validated instruments: the NASA-TLX workload index, the SAS phone addiction scale, and the FoMO and nomophobia questionnaires (NMP-Q, FoMOS), with academic self-regulation measured via MSLQ subscales. Data was analysed in Jamovi using correlation and factor analysis and linear regression.
@@ -41,6 +45,3 @@ Based on the results, blanket bans are not an effective solution in higher educa
 
 The thesis names its own key limitations: the cross-sectional design doesn't allow causal claims, the data relies on self-report, and the sample size (N=79) is smaller than recommended for multivariate methods, so the results should be read as indicative rather than conclusive. The attention measure is also conceptually tied specifically to phone-related disruption rather than general attentional capacity.
 
-## Theoretical background and instruments
-
-Core frameworks: Brain Drain theory (Ward et al. 2017), Cognitive Load Theory (Sweller 1994), FoMO (Przybylski et al. 2013), and Nomophobia (Yildirim & Correia 2015). Instruments used: NMP-Q, FoMOS, SAS-SV, MSLQ, and NASA-TLX.

@@ -7,7 +7,7 @@ alt_lang_url: /projektit/Pro-gradu/
 ---
 
 <a href="/assets/thesis/pro-gradu.pdf" data-goatcounter-click="lataa-gradu-pdf">
-  Download Master's thesis as PDF
+  Download Master's thesis PDF (in Finnish)
 </a>
 
 # The Connection Between Smartphone-Related Psychological Phenomena, Cognitive Functions, and Self-Regulation Among IT Students in Higher Education

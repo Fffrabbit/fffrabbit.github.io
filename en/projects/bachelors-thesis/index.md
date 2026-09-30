@@ -6,6 +6,10 @@ lang: en
 alt_lang_url: /projektit/kandidaatin-tutkielma/
 ---
 
+<a href="/assets/thesis/kanditutkielma.pdf" data-goatcounter-click="lataa-tutkielma-pdf">
+  Download Bachelo'rs thesis PDF
+</a>
+
 # Utilising Text-Generating Artificial Intelligence for Learning
 
 My bachelor's thesis is a literature review examining how text-generating AI — particularly ChatGPT — is used in learning, and what effects it has on teaching. The thesis was completed in April 2024 at the University of Jyväskylä's Faculty of Information Technology, supervised by Sanna Juutinen. The topic was very current at the time: ChatGPT had been released just over a year earlier, and there was little Finnish research yet on its use in higher education.

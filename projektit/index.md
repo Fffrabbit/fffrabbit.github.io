@@ -27,8 +27,12 @@ Vertailu tekoälyn käyttöohjeista niissä korkeakouluissa, joissa olisin valmi
 
 ## Pro gradu
 
-Tähän myöhemmin tarkempi kuvaus.
+Älypuhelimeen liittyvien psykologisten ilmiöiden (brain drain, nomofobia, FoMO) yhteys kognitiiviseen kuormitukseen ja itsesäätelyyn tietotekniikan opiskelijoilla (N=79).
+
+[Lue lisää →]({{ site.baseurl }}/projektit/Pro-gradu/)
 
 ## Kandidaatin tutkielma
 
-Tähän myöhemmin tarkempi kuvaus.
+Tekstiä generoivan tekoälyn hyödyntäminen oppimisessa — kirjallisuuskatsaus ChatGPT:n käytöstä ja vaikutuksista opetuksessa.
+
+[Lue lisää →]({{ site.baseurl }}/projektit/kandidaatin-tutkielma/)

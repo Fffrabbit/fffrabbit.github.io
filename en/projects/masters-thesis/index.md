@@ -6,6 +6,10 @@ lang: en
 alt_lang_url: /projektit/Pro-gradu/
 ---
 
+<a href="/assets/thesis/pro-gradu.pdf" data-goatcounter-click="lataa-gradu-pdf">
+  Download Master's thesis as PDF
+</a>
+
 # The Connection Between Smartphone-Related Psychological Phenomena, Cognitive Functions, and Self-Regulation Among IT Students in Higher Education
 
 My master's thesis examines whether smartphone-related psychological phenomena — brain drain, nomophobia, fear of missing out (FoMO), and problematic phone use — are linked to IT students' cognitive load, academic self-regulation, and attention disruption. The thesis was completed in May 2026 at the University of Jyväskylä's Faculty of Information Technology, in the educational technology programme, supervised by Ville Isomöttönen.

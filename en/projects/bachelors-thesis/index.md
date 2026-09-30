@@ -7,7 +7,7 @@ alt_lang_url: /projektit/kandidaatin-tutkielma/
 ---
 
 <a href="/assets/thesis/kanditutkielma.pdf" data-goatcounter-click="lataa-tutkielma-pdf">
-  Download Bachelo'rs thesis PDF
+  Download Bachelo'rs thesis PDF (in Finnish)
 </a>
 
 # Utilising Text-Generating Artificial Intelligence for Learning

@@ -6,6 +6,10 @@ lang: fi
 alt_lang_url: /en/projects/masters-thesis/
 ---
 
+<a href="/assets/thesis/pro-gradu.pdf" data-goatcounter-click="lataa-gradu-pdf">
+  Lataa Pro gradu PDF-muodossa
+</a>
+
 # Älypuhelimien tuottamien psykologisten ilmiöiden yhteys kognitiivisiin toimintoihin ja itsesäätelyyn tietotekniikan korkeakouluopiskelijoilla
 
 Pro gradu -tutkielmani tarkastelee, ovatko älypuhelimeen liittyvät psykologiset ilmiöt — kognitiivisten resurssien hupeneminen (brain drain), nomofobia, sosiaalisen paitsijäämisen pelko (FoMO) ja ongelmallinen puhelimen käyttö — yhteydessä tietotekniikan opiskelijoiden kokemaan kognitiiviseen kuormitukseen, akateemiseen itsesäätelyyn ja tarkkaavaisuuden häiriintymiseen. Tutkielma valmistui toukokuussa 2026 Jyväskylän yliopiston informaatioteknologian tiedekunnassa, koulutusteknologian opintosuunnalla, ohjaajana Ville Isomöttönen.

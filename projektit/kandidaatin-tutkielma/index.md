@@ -6,6 +6,10 @@ lang: fi
 alt_lang_url: /en/projects/bachelors-thesis/
 ---
 
+<a href="/assets/thesis/kanditutkielma.pdf" data-goatcounter-click="lataa-tutkielma-pdf">
+  Lataa kandidaatintutkielma PDF-muodossa
+</a>
+
 # Tekstiä generoivan tekoälyn hyödyntäminen oppimisessa
 
 Kandidaatintutkielmani on kirjallisuuskatsaus siitä, miten tekstiä generoivaa tekoälyä — erityisesti ChatGPT:tä — hyödynnetään oppimisessa ja millaisia vaikutuksia sillä on opetukseen. Tutkielma valmistui huhtikuussa 2024 Jyväskylän yliopiston informaatioteknologian tiedekunnassa, ohjaajana Sanna Juutinen. Aiheena oli tarttua tuolloin vielä tuoreeseen ilmiöön: ChatGPT oli julkaistu vain reilu vuosi aiemmin, eikä sen käytöstä korkeakouluopinnoissa ollut juuri kotimaista tutkimusta.

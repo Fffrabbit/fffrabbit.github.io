@@ -24,10 +24,16 @@ A comparison of AI usage policies at higher education institutions where I'd be 
 
 [Read more →]({{ site.baseurl }}/en/projects/AI-policies-in-finnish-higher-education/)
 
-## Bachelor's Thesis
+Master's Thesis
 
-More detailed description to follow.
+How smartphone-related psychological phenomena (brain drain, nomophobia, FoMO) relate to cognitive load and self-regulation among IT students (N=79).
 
-## Master's Thesis
+[Read more →]({{ site.baseurl }}/en/projects/masters-thesis/)
 
-More detailed description to follow.
+Bachelor's Thesis
+
+Utilising text-generating artificial intelligence for learning — a literature review on ChatGPT's use and effects in teaching.
+
+[Read more →]({{ site.baseurl }}/en/projects/bachelors-thesis/)
+
+

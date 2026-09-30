@@ -3,7 +3,7 @@ layout: default
 title: The Connection Between Smartphone-Related Psychological Phenomena, Cognitive Functions, and Self-Regulation Among IT Students in Higher Education – Petteri Kuisma
 description: Master's thesis on how smartphone-related psychological phenomena (brain drain, nomophobia, FoMO) relate to cognitive load and self-regulation among IT students, N=79.
 lang: en
-alt_lang_url: /projektit/pro-gradu/
+alt_lang_url: /projektit/Pro-gradu/
 ---
 
 # The Connection Between Smartphone-Related Psychological Phenomena, Cognitive Functions, and Self-Regulation Among IT Students in Higher Education

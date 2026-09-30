@@ -12,7 +12,7 @@ alt_lang_url: /en/projects/bachelors-thesis/
 
 # Tekstiä generoivan tekoälyn hyödyntäminen oppimisessa
 
-Kandidaatintutkielmani on kirjallisuuskatsaus siitä, miten tekstiä generoivaa tekoälyä — erityisesti ChatGPT:tä — hyödynnetään oppimisessa ja millaisia vaikutuksia sillä on opetukseen. Tutkielma valmistui huhtikuussa 2024 Jyväskylän yliopiston informaatioteknologian tiedekunnassa, ohjaajana Sanna Juutinen. Aiheena oli tarttua tuolloin vielä tuoreeseen ilmiöön: ChatGPT oli julkaistu vain reilu vuosi aiemmin, eikä sen käytöstä korkeakouluopinnoissa ollut juuri kotimaista tutkimusta.
+Kandidaatintutkielmani on kirjallisuuskatsaus siitä, miten tekstiä generoivaa tekoälyä, erityisesti ChatGPT:tä, hyödynnetään oppimisessa ja millaisia vaikutuksia sillä on opetukseen. Tutkielma valmistui huhtikuussa 2024 Jyväskylän yliopiston informaatioteknologian tiedekunnassa, ohjaajana Sanna Juutinen. Aiheena oli tarttua tuolloin vielä tuoreeseen ilmiöön: ChatGPT oli julkaistu vain reilu vuosi aiemmin, eikä sen käytöstä korkeakouluopinnoissa ollut juuri kotimaista tutkimusta.
 
 ## Sisältö ja rakenne
 
@@ -26,11 +26,11 @@ Katsaus etenee viiden teeman kautta:
 
 ## Keskeiset havainnot
 
-Katsauksen mukaan generatiivinen tekoäly osoittautui arvokkaaksi työkaluksi sekä opiskelijoille että opettajille, mutta eri tavoin. Opettajat hyötyivät erityisesti hallinnollisten tehtävien automatisoinnista — esseiden arvioinnista ja palautteen kirjoittamisesta — mikä vapautti aikaa opetukseen ja opiskelijoiden kohtaamiseen. Opiskelijat puolestaan raportoivat saaneensa yksilöllisempää ohjausta ja tukea ammatilliseen kehittymiseensä, mutta myös huolta: tekoälyn tuottamien virheiden vaikutuksesta arvosanoihin, ja siitä, voiko liiallinen tuki heikentää omaa oppimista.
+Katsauksen mukaan generatiivinen tekoäly osoittautui arvokkaaksi työkaluksi sekä opiskelijoille että opettajille, mutta eri tavoin. Opettajat hyötyivät erityisesti hallinnollisten tehtävien automatisoinnista, esseiden arvioinnista ja palautteen kirjoittamisesta, mikä vapautti aikaa opetukseen ja opiskelijoiden kohtaamiseen. Opiskelijat puolestaan raportoivat saaneensa yksilöllisempää ohjausta ja tukea ammatilliseen kehittymiseensä, mutta myös huolta: tekoälyn tuottamien virheiden vaikutuksesta arvosanoihin, ja siitä, voiko liiallinen tuki heikentää omaa oppimista.
 
-Katsauksessa nostetaan esiin Stanfordin (2023) tutkimus, jonka mukaan automaattinen palautetyökalu paransi opettajien "uptake"-käytäntöä — kykyä tunnustaa ja hyödyntää opiskelijoiden aikaansaannoksia — mikä näkyi sekä opiskelijoiden suorituksissa että tyytyväisyydessä kurssiin.
+Katsauksessa nostetaan esiin Stanfordin (2023) tutkimus, jonka mukaan automaattinen palautetyökalu paransi opettajien "uptake"-käytäntöä — kykyä tunnustaa ja hyödyntää opiskelijoiden aikaansaannoksia, mikä näkyi sekä opiskelijoiden suorituksissa että tyytyväisyydessä kurssiin.
 
-Toistuva teema kirjallisuudessa oli, ettei tekoälyn tarkoitus ole korvata opettajaa vaan toimia täydentävänä työkaluna: ihmisten välinen vuorovaikutus haluttiin säilyttää oppimisen ytimessä. Samalla katsaus tunnistaa avoimia vastuu-, toimijuus- ja valvontakysymyksiä — esimerkiksi sen, kuinka varmistetaan kenen työtä arvioidaan, kun rajapinta opiskelijan ja tekoälyn tuotoksen välillä hämärtyy.
+Toistuva teema kirjallisuudessa oli, ettei tekoälyn tarkoitus ole korvata opettajaa vaan toimia täydentävänä työkaluna: ihmisten välinen vuorovaikutus haluttiin säilyttää oppimisen ytimessä. Samalla katsaus tunnistaa avoimia vastuu-, toimijuus- ja valvontakysymyksiä, esimerkiksi sen, kuinka varmistetaan kenen työtä arvioidaan, kun rajapinta opiskelijan ja tekoälyn tuotoksen välillä hämärtyy.
 
 ## Ratkaisuehdotuksia
 

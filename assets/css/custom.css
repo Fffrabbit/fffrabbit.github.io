@@ -274,11 +274,13 @@ html, body {
   max-width: 100%;
 }
 
-section.main-content img,
-section.main-content svg {
+section.main-content img {
   max-width: 100%;
   height: auto;
 }
+
+/* Leafletin interaktiiviset kartat (esim. työskentelyalue-kartta) piirtävät
+   itse oman SVG-tasonsa ja hallitsevat sen kokoa JS:llä — ei kosketa siihen */
 
 /* Markdown-taulukot: oma vaakaskrolli laatikon sisällä sen sijaan että
    ne pakottaisivat koko sivun leveämmäksi */

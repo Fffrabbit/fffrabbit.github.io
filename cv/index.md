@@ -105,4 +105,3 @@ Olen valmis työskentelemään pääkaupunkiseudulla sekä Pirkanmaan, Kanta-Hä
 
 - Suomi: äidinkieli
 - Englanti: sujuva
-- Ruotsi: tyydyttävä

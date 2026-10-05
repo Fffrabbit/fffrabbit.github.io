@@ -1,0 +1,227 @@
+<div id="alue-kartta-wrap-en" style="max-width:900px; margin:0 auto;">
+  <div id="alue-kartta-en" style="width:100%; height:480px; border-radius:12px; overflow:hidden; border:1px solid #2a2e38;"></div>
+  <p style="font-size:0.85rem; color:#9aa1ad; margin:0.6rem 0 0; text-align:center;">
+    Regions highlighted in blue are areas where I'm looking for work. Click a city to see what kind of roles I'm applying for there.
+  </p>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+<style>
+  #alue-kartta-wrap-en .leaflet-container {
+    background: #14161b;
+    font-family: inherit;
+  }
+  #alue-kartta-wrap-en .maakunta-korostettu {
+    transition: filter 0.15s ease, fill-opacity 0.15s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  #alue-kartta-wrap-en .maakunta-korostettu:hover {
+    filter: drop-shadow(0 0 6px rgba(110,168,254,0.85));
+    transform: scale(1.015);
+  }
+  #alue-kartta-wrap-en .kaupunki-piste {
+    cursor: pointer;
+    transition: filter 0.15s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  #alue-kartta-wrap-en .kaupunki-piste:hover {
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.9));
+  }
+  #alue-kartta-wrap-en .kaupunki-label {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #e7e9ee;
+    font-weight: 600;
+    font-size: 12.5px;
+    text-shadow: 0 0 3px #14161b, 0 0 3px #14161b, 0 0 5px #14161b;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+  #alue-kartta-wrap-en .leaflet-popup-content-wrapper {
+    background: #1c1f26;
+    color: #e7e9ee;
+    border-radius: 10px;
+  }
+  #alue-kartta-wrap-en .leaflet-popup-tip {
+    background: #1c1f26;
+  }
+  #alue-kartta-wrap-en .leaflet-popup-content {
+    font-size: 13.5px;
+    line-height: 1.45;
+    margin: 12px 14px;
+  }
+  #alue-kartta-wrap-en .leaflet-popup-content b {
+    color: #6ea8fe;
+  }
+  #alue-kartta-wrap-en .leaflet-control-attribution {
+    background: rgba(20,22,27,0.8) !important;
+    color: #9aa1ad !important;
+  }
+  #alue-kartta-wrap-en .leaflet-control-attribution a {
+    color: #6ea8fe !important;
+  }
+</style>
+
+<script src="{{ site.baseurl }}/assets/js/suomi-maakunnat.js"></script>
+<script>
+(function () {
+  var kohdealueet = ["Uusimaa", "Kanta-Häme", "Päijät-Häme", "Pirkanmaa"];
+  var kaupungit = [
+  {
+    "nimi": "Helsinki",
+    "maakunta": "Uusimaa",
+    "lat": 60.1699,
+    "lon": 24.9384,
+    "suunta": "bottom",
+    "siirto": [
+      0,
+      8
+    ],
+    "teksti": "The largest IT and EdTech market in the Helsinki metropolitan area. I'm applying here especially for junior-level software and AI developer roles, as well as educational technology specialist roles at software houses and growth companies."
+  },
+  {
+    "nimi": "Espoo",
+    "maakunta": "Uusimaa",
+    "lat": 60.2055,
+    "lon": 24.6559,
+    "suunta": "left",
+    "siirto": [
+      -8,
+      0
+    ],
+    "teksti": "The Otaniemi technology hub, close to Aalto University. I'm especially interested in roles combining learning technology and data work, as well as software startups."
+  },
+  {
+    "nimi": "Vantaa",
+    "maakunta": "Uusimaa",
+    "lat": 60.2934,
+    "lon": 25.0378,
+    "suunta": "top",
+    "siirto": [
+      0,
+      -8
+    ],
+    "teksti": "Part of the Helsinki metropolitan labour market. Good transport links also make hybrid and remote-leaning roles from elsewhere in the region workable."
+  },
+  {
+    "nimi": "Hämeenlinna",
+    "maakunta": "Kanta-Häme",
+    "lat": 60.9959,
+    "lon": 24.4643,
+    "suunta": "top",
+    "siirto": [
+      0,
+      -8
+    ],
+    "teksti": "Home to HAMK — I'm especially interested in specialist roles related to learning environment development and digital pedagogy at universities of applied sciences and other education organisations."
+  },
+  {
+    "nimi": "Riihimäki",
+    "maakunta": "Kanta-Häme",
+    "lat": 60.7369,
+    "lon": 24.7735,
+    "suunta": "bottom",
+    "siirto": [
+      0,
+      8
+    ],
+    "teksti": "Close to the Helsinki metropolitan area with good train connections — also workable for partly remote roles based in Helsinki."
+  },
+  {
+    "nimi": "Lahti",
+    "maakunta": "Päijät-Häme",
+    "lat": 60.9827,
+    "lon": 25.6612,
+    "suunta": "right",
+    "siirto": [
+      8,
+      0
+    ],
+    "teksti": "Home to LAB University of Applied Sciences and a growing tech sector. I'm applying here for educational technology and software development roles."
+  },
+  {
+    "nimi": "Tampere",
+    "maakunta": "Pirkanmaa",
+    "lat": 61.4978,
+    "lon": 23.761,
+    "suunta": "right",
+    "siirto": [
+      8,
+      0
+    ],
+    "teksti": "One of Finland's largest software industry hubs. I'm interested both in junior developer roles at software houses and educational technology roles at TAMK and Tampere University."
+  },
+  {
+    "nimi": "Jyväskylä",
+    "maakunta": "Central Finland (not a primary area)",
+    "lat": 62.2426,
+    "lon": 25.7473,
+    "suunta": "right",
+    "siirto": [
+      8,
+      0
+    ],
+    "teksti": "My own university town — I graduated from the University of Jyväskylä with a master's degree in educational technology. Not a primary target area, but local connections and a familiar environment make it an interesting option too."
+  }
+];
+
+  var map = L.map('alue-kartta-en', {
+    scrollWheelZoom: false,
+    attributionControl: true
+  }).setView([61.6, 25.3], 6);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19
+  }).addTo(map);
+
+  function tyyli(feature) {
+    var korostettu = kohdealueet.indexOf(feature.properties.Maakunta) !== -1;
+    return korostettu
+      ? { className: 'maakunta-korostettu', color: '#6ea8fe', weight: 1.8, fillColor: '#6ea8fe', fillOpacity: 0.35 }
+      : { color: '#3a3f4a', weight: 1, fillColor: '#2a2e38', fillOpacity: 0.25 };
+  }
+
+  L.geoJSON(maakunnatGeoJson, {
+    style: tyyli,
+    onEachFeature: function (feature, layer) {
+      if (kohdealueet.indexOf(feature.properties.Maakunta) !== -1) {
+        layer.bindTooltip(feature.properties.Maakunta, { sticky: true, className: 'kaupunki-label' });
+      }
+    }
+  }).addTo(map);
+
+  // kaupunkien pisteet piirretään omaan pane-tasoon, jotta ne ja niiden nimet
+  // näkyvät aina maakuntarajojen PÄÄLLÄ eivätkä jää niiden alle
+  var kaupunkiPane = map.createPane('kaupunkiPane');
+  kaupunkiPane.style.zIndex = 650;
+
+  kaupungit.forEach(function (k) {
+    var ensisijainen = kohdealueet.indexOf(k.maakunta) !== -1;
+    var piste = L.circleMarker([k.lat, k.lon], {
+      pane: 'kaupunkiPane',
+      className: 'kaupunki-piste',
+      radius: ensisijainen ? 7 : 5,
+      color: '#e7e9ee',
+      weight: 1.5,
+      fillColor: ensisijainen ? '#f2a154' : '#6b7280',
+      fillOpacity: 0.95
+    }).addTo(map);
+
+    piste.bindTooltip(k.nimi, {
+      permanent: true,
+      direction: k.suunta,
+      offset: k.siirto,
+      className: 'kaupunki-label'
+    });
+
+    piste.bindPopup('<b>' + k.nimi + '</b><br>' + k.teksti);
+  });
+})();
+</script>

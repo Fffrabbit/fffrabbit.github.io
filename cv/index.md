@@ -15,8 +15,6 @@ alt_lang_url: /en/cv/
 
 ## Koulutusteknologian asiantuntija (FM)
 
-Petteri.kuisma00@gmail.com | +358 45 107 8022 
-
 ## Profiili
 
 Valmistunut koulutusteknologian asiantuntija (FM), jolla on käytännön kokemusta digipedagogisten verkkokoulutusten kehittämisestä Moodle-ympäristössä, digitaalisten oppimissisältöjen tuottamisesta sekä käyttäjälähtöisestä verkkopalvelujen kehittämisestä. Osaamiseni painottuu oppimisympäristöihin, pedagogiseen suunnitteluun, saavutettavuuteen, käytettävyyteen ja tekoälyn hyödyntämiseen opetuksessa. Etsin asiantuntijatehtäviä koulutusteknologian, digipedagogiikan tai digitaalisen sisällön kehittämisen parista.

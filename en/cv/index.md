@@ -101,4 +101,3 @@ I am available to work in the Helsinki metropolitan area as well as the Pirkanma
 
 - Finnish: mother tongue
 - English: fluent
-- Swedish: satisfactory

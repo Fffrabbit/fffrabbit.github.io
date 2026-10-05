@@ -14,8 +14,6 @@ alt_lang_url: /cv/
 
 ## Educational Technology Specialist (M.Sc.)
 
-Petteri.kuisma00@gmail.com | +358 45 107 8022
-
 ## Profile
 
 A graduate with a master's degree (FM) in Educational Technology, with practical experience in developing digital pedagogical online training courses in the Moodle environment, producing digital learning content, and developing user-oriented online services. My expertise focuses on learning environments, pedagogical design, accessibility, usability and the application of artificial intelligence in teaching. I am seeking specialist roles in the fields of educational technology, digital pedagogy or digital content development.

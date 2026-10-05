@@ -22,7 +22,7 @@ A graduate with a master's degree (FM) in Educational Technology, with practical
 
 I am available to work in the Helsinki metropolitan area as well as the Pirkanmaa, Kanta-Häme and Päijät-Häme regions.
 
-[comment]: <>  ![Työskentelyalue kartalla]({{ site.baseurl }}/assets/img/tyoskentelyalue-kartta-rajattu.png)
+{% include alue-kartta-en.html %}
 
 ## Work Experience
 
